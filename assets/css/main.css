@@ -282,6 +282,9 @@ a:after {
 	color: #95a5a6;
 }
 
+.description t {
+	font-weight: 700;
+}
 
 sm {
 	font-size: 12px;
