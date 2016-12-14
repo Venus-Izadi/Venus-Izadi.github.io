@@ -289,3 +289,8 @@ a:after {
 sm {
 	font-size: 12px;
 }
+
+.bullet-point {
+	color: #34495e;
+	font-weight: 300;
+}
