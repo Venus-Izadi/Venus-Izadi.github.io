@@ -187,6 +187,16 @@ a:after {
 	color: white;
 }
 
+#headerwrap a i {
+	color: white;
+	font-size: 25px;
+	margin: 8px;
+}
+
+.nav .icon {
+	margin-right: 8px;
+}
+
 /* Intnro Wrap */
 
 #intro {
@@ -208,15 +218,19 @@ a:after {
 }
 
 
-#skillswrap {
+#communityWrap {
 	background: #2c3e50;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
 }
 
-#skillswrap h5, p {
+#communityWrap h5, p {
 	color: white;
+}
+
+#communityWrap .description t {
+	font-weight: 700;
 }
 
 #footwrap {
@@ -241,6 +255,7 @@ a:after {
 #footwrap i {
 	padding-right: 8px;
 	color: #1abc9c;
+	font-size: 20px;
 }
 
 /* Copyright Wrap */
@@ -282,28 +297,22 @@ a:after {
 	color: #95a5a6;
 }
 
-.description t {
-	font-weight: 700;
-}
-
 sm {
 	font-size: 12px;
 }
 
-.bullet-point {
+.desc  .bullet-point {
 	color: #34495e;
 	font-weight: 300;
 }
-.drop-details p{
+.desc .drop-details p{
  color: #95a5a6;
 }
-.drop-details ul{
- color: #95a5a6;
-}
- summary {
-	 color: #f85c37;
- }
 
- .icon {
-	 margin-right: 8px;
- }
+.desc .drop-details ul{
+ color: #95a5a6;
+}
+
+.desc summary {
+	 color: #f85c37;
+}
