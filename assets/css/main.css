@@ -294,7 +294,12 @@ sm {
 	color: #34495e;
 	font-weight: 300;
 }
-
+.drop-details p{
+ color: #95a5a6;
+}
+.drop-details ul{
+ color: #95a5a6;
+}
  summary {
 	 color: #f85c37;
  }
