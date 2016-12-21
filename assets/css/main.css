@@ -147,6 +147,21 @@ a:after {
 #section-topbar i {
 	font-size: 25px;
 }
+ #section-topbar .nav_menu_sub ul {
+	 margin-top:-7px;
+	 display: none !important;
+ }
+
+ #section-topbar .nav_menu_sub li {
+	 float: left;
+ }
+
+#section-topbar .nav_menu_sub:hover ul {
+	 display: block !important;
+
+	 opacity: 1;
+	 visibility: visible;
+ }
 /*---------------------------------------------------
 	SECTION WRAPS
 ---------------------------------------------------*/
